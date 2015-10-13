@@ -1,10 +1,14 @@
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.util.Scanner;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
+
+//-left justified
 
 
 
@@ -28,11 +32,11 @@ public class OneOne {
 		JPanel p2 = new JPanel();
 		p2.setBackground(Color.GREEN);
 		
-		
+		String name = "JEsus";
 		
 		JButton b1 = new JButton("The Button");
 		JButton b2 = new JButton("ThSecond Button");
-		JLabel lab = new JLabel("Ths is the test label");
+		JLabel lab = new JLabel("Hello My Name is"+ name);
 		
 		JButton b3 = new JButton("Jpane2 butttttttttttttton");
 		JButton b4 = new JButton ("JPanne2 button");
@@ -57,4 +61,21 @@ public class OneOne {
 	
 		
 	}
+
+
+
+
+
+/*String name = "Jesus r";
+int x = 5;
+
+Scanner input = new Scanner ( System.in);
+
+
+System.out.println("My name is Jesus");
+System.out.printf("My name is%10s and this is the number %d\n", name,x);// 40000000004
+System.out.print("Hello");
+
+*/
+
 
